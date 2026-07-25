@@ -7,8 +7,7 @@ A responsive **Student Grade Analyzer** built using **HTML, CSS, and JavaScript*
 🔗 https://debugwithyash.github.io/student-grade-analyzer/
 
 ## 📸 Project Preview
-assets/screenshot.png
-```
+![Student Grade Analyzer](assets/screenshot.png)
 
 ---
 
