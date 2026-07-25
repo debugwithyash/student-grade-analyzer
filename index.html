@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Analyzer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <h1>🎓 Student Grade Analyzer</h1>
+            <h3>Analyze Performance Instantly</h3>
+
+            <p>
+                A simple yet interactive web application that evaluates
+                a student's academic performance and generates a report card.
+            </p>
+        </header>
+
+        <form id="student-form">
+
+            <!-- Student Information -->
+
+            <section>
+
+                <h2>Student Information</h2>
+
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Name"
+                    required>
+
+                <label for="roll-number">Roll Number</label>
+                <input
+                    type="number"
+                    id="roll-number"
+                    placeholder="Enter Roll Number"
+                    required>
+
+                <label for="class">Class</label>
+                <input
+                    type="text"
+                    id="class"
+                    placeholder="Enter Class"
+                    required>
+
+            </section>
+
+            <!-- Marks -->
+
+            <section>
+
+                <h2>Student Marks</h2>
+
+                <label for="html">HTML</label>
+                <input
+                    type="number"
+                    id="html"
+                    min="0"
+                    max="100"
+                    placeholder="0-100"
+                    required>
+
+                <label for="css">CSS</label>
+                <input
+                    type="number"
+                    id="css"
+                    min="0"
+                    max="100"
+                    placeholder="0-100"
+                    required>
+
+                <label for="javascript">JavaScript</label>
+                <input
+                    type="number"
+                    id="javascript"
+                    min="0"
+                    max="100"
+                    placeholder="0-100"
+                    required>
+
+                <label for="dbms">DBMS</label>
+                <input
+                    type="number"
+                    id="dbms"
+                    min="0"
+                    max="100"
+                    placeholder="0-100"
+                    required>
+
+                <label for="python">Python</label>
+                <input
+                    type="number"
+                    id="python"
+                    min="0"
+                    max="100"
+                    placeholder="0-100"
+                    required>
+
+                <button type="submit">
+                    Calculate Result
+                </button>
+
+            </section>
+
+        </form>
+
+        <!-- Result -->
+
+        <section class="result">
+
+            <h2>Result</h2>
+
+            <label>Total</label>
+            <input type="text" id="total" readonly>
+
+            <label>Percentage</label>
+            <input type="text" id="percentage" readonly>
+
+            <label>Grade</label>
+            <input type="text" id="grade" readonly>
+
+            <label>Result</label>
+            <input type="text" id="result" readonly>
+
+            <label>Performance</label>
+            <input type="text" id="performance" readonly>
+
+            <label>Scholarship</label>
+            <input type="text" id="scholarship" readonly>
+
+        </section>
+
+        <footer>
+            <p>Made with ❤️ by DebugWithYash</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
